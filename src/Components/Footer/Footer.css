@@ -1,0 +1,61 @@
+.footer{
+    margin:50px 170px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-top-left p{
+    font-size: 22px;
+    max-width: 400px;
+}
+.footer-top-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.footer-email-input{
+    display: flex;
+    gap: 30px;
+    padding: 10px 22px;
+    border-radius: 50px;
+    background-color: #32323B;
+    padding-right: 80px;
+}
+.footer-email-input input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #a0a0a0;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+}
+.footer-email-input:hover{
+    border: 2px solid white;
+}
+.footer-subscribe{
+    font-size: 20px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,17,205,0.6526260162268032) 0%, rgba(177,17,141,1) 33%, rgba(0,212,255,1) 100%); 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.footer-subscribe:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+}
+.footer-bottom-right{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}

@@ -12,8 +12,8 @@
     margin-top: 140px;
 }
 .hero h1 span
-{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,17,205,0.6526260162268032) 0%, rgba(177,17,141,1) 33%, rgba(0,212,255,1) 100%);
+{ 
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,17,205,0.6526260162268032) 0%, rgba(177,17,141,1) 33%, rgba(0,212,255,1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
