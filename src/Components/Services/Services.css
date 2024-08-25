@@ -1,0 +1,70 @@
+.service{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+    margin: 80px 170px;    
+}
+.service-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.service-format{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px;
+    border-radius: 10px;
+}
+.service-containers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom:20px;
+}
+.service-container{
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.service-container h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service-container h2{
+    font-size: 38px;
+    font-weight: 800px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,17,205,0.6526260162268032) 0%, rgba(177,17,141,1) 33%, rgba(0,212,255,1) 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+.service-container p{
+    color: #d4d4d4;
+    font-size: 24px;
+    line-height: 30px;
+    max-width: 300px;
+} 
+.service-readmore{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+.service-readmore img{
+    background: white;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+.service-container:hover{
+    border: 2px solid #ff00ff;
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
