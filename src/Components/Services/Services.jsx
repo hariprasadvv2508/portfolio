@@ -3,7 +3,7 @@ import './Services.css'
 import arrow_right from '../../assets/arrow_right.png'
 const Services = () =>{
     return(
-        <div className="service">
+        <div id='services' className="service">
             <div className="service-title">
                 <h1>My Services</h1>
             </div>

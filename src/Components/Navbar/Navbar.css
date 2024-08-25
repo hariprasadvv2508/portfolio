@@ -22,3 +22,18 @@
 .nav-connect:hover{
     transform: scale(1.05);
 }
+.anchor-link{
+    text-decoration: none;
+    color: white;
+}
+@media(max-width:768px){
+    .navbar{
+        margin:20px 50px;
+    }
+    .nav-connect{
+        display: none;
+    }
+    .nav-open{
+        background-color: white;
+    }
+}          
