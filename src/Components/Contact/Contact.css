@@ -69,6 +69,9 @@
     font-family: "Outfit", sans-serif;
     font-size:20px;
 } 
+.contact-right input:hover{
+    border: 2px solid white;
+}
 .contact-right textarea{
     width:600px;
     border: none;
@@ -78,6 +81,10 @@
     color: #A0A0A0;
     font-family: "Outfit", sans-serif;
     font-size:20px;
+}
+.contact-right textarea:hover{
+    border: 2px solid white;
+    transition: 0.4s;
 }
 .contact-submit{
     border: none;
@@ -93,4 +100,50 @@
 .contact-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+}
+@media(max-width:768px){
+    .contact{
+      gap: 50px;
+      margin: 50px 70px;
+      align-items: start;  
+    }
+    .contact-title h1{
+        padding: 0;
+        font-size: 50px;
+        font-weight: 600;
+        margin: 0px 160px;
+    }
+    .contact-section{
+        flex-direction: column;
+    }
+    .contact-left h1{
+        font-size: 54px;
+    }
+    .contact-left p{
+        font-size: 18px;
+    }
+    .contact-detail{
+        gap: 20px;
+    }
+    .contact-detail img{
+        width: 25px;
+    }
+    .contact-right{
+        margin-top: 20px;
+    }
+    .contact-right label{
+        font-size: 20px;
+    }
+    .contact-right input{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact-right textarea{
+        width: 100%;
+        font-size: 20px;
+    }
+    .contact-submit{
+        font-size: 20px;
+        padding: 15px 40px;
+    }
 }
