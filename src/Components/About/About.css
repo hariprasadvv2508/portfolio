@@ -1,0 +1,132 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:40px 170px  ;
+}
+.about-section h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin:70px 0px ;
+}
+.about-content img{
+    padding:13px ;
+    border: 2px solid white;
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+}
+.about-content img:hover{
+    border: 2px solid #ff00ff;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.about-content p{
+    max-width: 800px;
+    font-size: 22px;
+    line-height: 32px;
+    word-spacing: 10px;
+}
+.about-socialmedias{
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 70px;
+}
+.about-socialmedias h2{
+    text-align: center;
+    padding: 0 30px;
+    font-size: 50px;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(188,17,205,0.6526260162268032) 0%, rgba(177,17,141,1) 33%, rgba(0,212,255,1) 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.social-media{
+    display: flex;
+    gap:70px ;
+    
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    border-radius:20px;
+}
+.instagram img{
+    padding: 10px;
+    margin: 10px;
+}
+.instagram a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.instagram a button{
+        padding:10px 20px ;
+        border-radius:30px;
+}
+.instagram  .para{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}  
+.Linked-in{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.Linked-in img{
+    padding: 10px;
+    margin: 10px;
+}
+.Linked-in a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.Linked-in a button{
+        padding:10px 20px ;
+        border-radius:30px;
+}
+.Linked-in  .para{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}  
+.github{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.github img{
+    padding: 10px;
+    margin: 10px;
+}
+.github a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.github a button{
+        padding:10px 20px ;
+        border-radius:30px;
+}
+.github  .para{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}     
+
+
+
+
